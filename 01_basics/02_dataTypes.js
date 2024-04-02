@@ -11,7 +11,7 @@ let value = null
 
 //Number => 2 to power 53
 // bigint
-//strng => ""
+//string => ""
 //boolean => true/false
 // null => standalone value
 // undefined =>
@@ -19,3 +19,5 @@ let value = null
 //object
 
 console.log(typeof"shailesh");
+console.table(typeof undefined) // undefined type
+console.log(typeof null)  // object 
