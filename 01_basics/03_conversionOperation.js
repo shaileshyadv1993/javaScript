@@ -25,3 +25,6 @@ let convertedToString = String(newNumber)
 console.log(typeof convertedToString)
 console.log(convertedToString)
 
+// ----------- Operations---------
+ console.log(25 + Number(false))
+

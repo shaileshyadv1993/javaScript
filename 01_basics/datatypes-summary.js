@@ -12,3 +12,21 @@ console.log(id === otherId)
 // get direct memory address
 // Array, Ojects, Functions
 
+const heros =["ram", "Shyam","mohan"] //Arrays
+
+// Objects
+let obj = {
+    name:"Shailesh",
+    age:32,
+}
+
+const myFun = function(){
+    console.log(obj)
+    
+}
+
+const typeCheck = function(){
+    console.log( typeof obj)
+}
+
+typeCheck()
